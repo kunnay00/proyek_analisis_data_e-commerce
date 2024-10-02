@@ -12,7 +12,7 @@ main_data_df['order_delivered_customer_date'] = pd.to_datetime(main_data_df['ord
 
 #Sidebar
 st.sidebar.header("Filter by Date")
-start_date = st.sidebar.date_input("Start Date", value=datetime(2020, 1, 1))
+start_date = st.sidebar.date_input("Start Date", value=datetime(2018, 1, 1))
 end_date = st.sidebar.date_input("End Date", value=datetime.now())
 
 #Filter data
